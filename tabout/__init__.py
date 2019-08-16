@@ -1,1 +1,1 @@
-name = "package prints this...'''--- MAGIC"
+from .tabout import alertme

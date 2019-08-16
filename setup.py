@@ -12,5 +12,6 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/daverbuj/Tabout",
-    packages=setuptools.find_packages()
+    packages=setuptools.find_packages(),
+    install_requires=['playsound', 'slackclient', 'pox']
 )
