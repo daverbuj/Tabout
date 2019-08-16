@@ -16,12 +16,12 @@ pip install tabout
 from tabout import alertme
 
 alertme() # plays a sound alert
-alertme(sound=False, token='SAMPLE-TOKEN', channel='SAMPLE-CHANNEL-ID') # sends a Slack message
+alertme(sound=False, token='SAMPLE-TOKEN', channel='SAMPLE-CHANNEL-ID') # sends a Slack message to the channel chosen
 alertme(token='SAMPLE-TOKEN', channel='SAMPLE-CHANNEL-ID', script = 'foobar.py') # plays a sound and sends a Slack message with notice of script used
 ```
 ### To find your Slack token and channel ID:
 **Slack token:** Go to [Slack's legacy token page](https://api.slack.com/custom-integrations/legacy-tokens), and find the option to create a token to your Slack channel of choice.
-![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title"
+![Slack token screenshot](/tabout/tutorial/tabout_slack_token.png?raw=true "Optional Title")
 
 
 **Channel ID:** 
