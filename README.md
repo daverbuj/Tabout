@@ -21,7 +21,7 @@ alertme(token='SAMPLE-TOKEN', channel='SAMPLE-CHANNEL-ID', script = 'foobar.py')
 ```
 ### To find your Slack token and channel ID:
 **Slack token:** Go to [Slack's legacy token page](https://api.slack.com/custom-integrations/legacy-tokens), and find the option to create a token to your Slack channel of choice.
-![Slack token screenshot](/tabout/tutorial/tabout_slack_token.png?raw=true "Optional Title")
+![Slack token screenshot](/tutorial/tabout_slack_token.png?raw=true "Optional Title")
 
 
 **Channel ID:** 
