@@ -1,6 +1,6 @@
 # Tabout
 
-Tabout is a python package that allows you to focus on other things while your script is running by playing an alert and/or sending a Slack message when your script is ready.
+Tabout is a module that allows you to focus on other things while your script is running by playing an alert and/or sending a Slack message when your script is ready. Just enter the code into your script whenever you would like to be informed of completion, an error, a checkpoint, etc.
 
 ## Installation
 
@@ -24,7 +24,7 @@ alertme(token='SAMPLE-TOKEN', channel='SAMPLE-CHANNEL-ID', script = 'foobar.py')
 
 ![Slack token screenshot](/tutorial/tabout_slack_token.png?raw=true)
 
-**Channel ID:** To find the channel ID, first decide which channel or direct message you would like to send the alert to. I would recommend choosing your own direct messages or Slackbot's. After joining that channel, the channel ID can be found in the url.
+**Channel ID:** To find the channel ID, first decide which channel or direct message you would like to send the alert to. Unless you want to let other know the status of your script, I would recommend choosing your own direct messages or Slackbot's. After joining that channel, the channel ID can be found in the url.
 
 ![Slack channel ID screenshot](/tutorial/tabout_slack_channel_url.png?raw=true)
 
