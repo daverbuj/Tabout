@@ -5,13 +5,14 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="tabout",
-    version="0.0.1",
+    version="1.0.6",
     author="Dan Averbuj",
     author_email="dan.averbuj@gmail.com",
     description="Create sound and/or slack notifications within your script",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/daverbuj/Tabout",
+    include_package_data=True,
     packages=setuptools.find_packages(),
-    install_requires=['playsound', 'slackclient', 'pox']
+    install_requires=['playsound', 'slackclient']
 )

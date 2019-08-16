@@ -1,9 +1,11 @@
 from .soundit import soundit
 from .slackit import slackit
-from pox.shutils import find
+import os
 
 def alertme(sound = True, token = False, channel = False, script = False):
-	sound_file = find('alert1.mp3')[0]
+
+	cwd = (os.path.dirname(__file__))
+	sound_file = cwd + '/sounds/alert1.tabout.mp3'
 
 	if sound:
 		soundit(sound_file)
