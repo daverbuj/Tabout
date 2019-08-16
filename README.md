@@ -1,6 +1,6 @@
 # Tabout
 
-Tabout is a python package that allows you to focus on other things while your script is running by playing an alert and/or sending a Slack message when it's ready.
+Tabout is a python package that allows you to focus on other things while your script is running by playing an alert and/or sending a Slack message when your script is ready.
 
 ## Installation
 
