@@ -24,7 +24,7 @@ alertme(token='SAMPLE-TOKEN', channel='SAMPLE-CHANNEL-ID', script='foobar.py') #
 
 ![Slack token screenshot](/tutorial/tabout_slack_token.png?raw=true)
 
-**Channel ID:** To find the channel ID, first decide which channel or direct message you would like to send the alert to. Unless you want to let other know the status of your script, I would recommend choosing your own direct messages or Slackbot's. After joining that channel, the channel ID can be found in the url.
+**Channel ID:** To find the channel ID, first decide which channel or direct message you would like to send the alert to. Unless you want to let others know the status of your script, I would recommend choosing your own direct messages or Slackbot's. After joining that channel, the channel ID can be found in the url.
 
 ![Slack channel ID screenshot](/tutorial/tabout_slack_channel_url.png?raw=true)
 
