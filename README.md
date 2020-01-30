@@ -1,6 +1,6 @@
 # Tabout
 
-Tabout is a module that allows you to focus on other things while your script is running by playing an alert and/or sending a Slack message when your script is ready. Just enter the code into your script whenever you would like to be informed of completion, an error, a checkpoint, etc.
+Tabout allows you to focus on other things while your script is running by playing an alert and/or sending a Slack message when your script is ready. Just enter the code into your script whenever you would like to be informed of completion, an error, a checkpoint, etc.
 
 ## Installation
 
